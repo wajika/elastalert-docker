@@ -14,8 +14,7 @@ ENV ELASTALERT_HOME=/opt/elastalert \
     CONTAINER_TIMEZONE=Etc/UTC 
 
 # elastalert env
-#ENV ELASTALERT_URL=https://github.com/Yelp/elastalert/archive/${ELASTALERT_VERSION}.tar.gz  \  
-ENV ELASTALERT_URL=https://codeload.github.com/Yelp/elastalert/tar.gz/${ELASTALERT_VERSION} \  
+ENV ELASTALERT_URL=https://github.com/Yelp/elastalert/archive/${ELASTALERT_VERSION}.tar.gz  \  
     ELASTALERT_RULES_DIRECTORY=${ELASTALERT_HOME}/rules \
     ELASTALERT_PLUGIN_DIRECTORY=${ELASTALERT_HOME}/elastalert_modules \
     ELASTALERT_ENHANCEMENT_DIRECTORY=${ELASTALERT_HOME}/elastalert_enhancements \
