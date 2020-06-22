@@ -63,7 +63,7 @@ RUN set -ex && \
         .build-dependencies \
         gcc \ 
         libffi-dev \
-        python-dev \
+        python2-dev \
         tar \
         musl-dev \
         openssl-dev && \
