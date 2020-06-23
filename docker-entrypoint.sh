@@ -127,6 +127,9 @@ __start_elastalert() {
 }
 
 __wait_for_elasticsearch() {
+    ELASTICSEARCH_HOST=es.lonsid.cn
+    ELASTICSEARCH_PORT=80
+    protocol=http://
     # Wait until Elasticsearch is online since otherwise Elastalert will fail.
     while true;
     do
