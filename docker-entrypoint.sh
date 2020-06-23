@@ -144,7 +144,7 @@ init() {
     __set_folder_permissions
     __check_rules
     __config_timezone_and_ntp
-    __wait_for_elasticsearch
+    #__wait_for_elasticsearch
     __create_elastalert_index
     __start_elastalert
 }
